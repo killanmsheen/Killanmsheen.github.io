@@ -1,41 +1,27 @@
-/* Style the navigation menu */
-.topnav {
+.nav {
     overflow: hidden;
-    background-color: #333;
-    position: relative;
+    background-color: #222c45;
+    list-style: none;
 }
-    
-/* Hide the links inside the navigation menu (except for logo/home) */
-.topnav #myLinks {
-display: none;
+.nav > li {
+    display: inline-block;
 }
-    
-/* Style navigation menu links */
-.topnav a {
+.nav > li > a {
 color: white;
 padding: 14px 16px;
 text-decoration: none;
 font-size: 17px;
 display: block;
 }
-
-/* Style the hamburger menu */
-.topnav a.icon {
-background: black;
-display: block;
-position: absolute;
-right: 0;
-top: 0;
-}
-
-/* Add a grey background color on mouse-over */
-.topnav a:hover {
-background-color: #ddd;
+.nav > li > a:hover {
+background-color: #d54a4f;
 color: black;
 }
-
-/* Style the active link (or home/logo) */
-.active {
-background-color: #4CAF50;
-color: white;
+body {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    background-color: #161e2d;
+    color: white;
+    font-family: "Myriad Pro";
 }
