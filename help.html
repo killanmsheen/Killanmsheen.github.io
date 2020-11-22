@@ -7,23 +7,37 @@
     <link rel="icon" type="image/png" href="/Resources/skull.png">
     <link rel="stylesheet" href="/Resources/nav.css">
 <style>
-
+    li {
+        list-style: none;
+    }
+    li > a {
+        text-decoration: none;
+        color: #d54a4f;
+    }
+    h2 {
+        text-decoration: underline;
+    }
 </style>
 </head>
 <body>
-    <header>
-        <!-- external links use "a" -->
+
+    <header> 
         <ul class="nav">
-            <li class="logo"><a href="index.html"><img src="/Resources/skull-logo.png" alt="" style="width: 100px;height: 25px;"></a></li>
+            <li class="logo"><a href="home.html"><img src="/Resources/skull-logo.png" alt=""></a></li>
             <li><a href="Commands.html">Commands</a></li>
             <li><a href="help.html">Help</a></li>
         </ul>          
     </header>
+
     <main>
-        <!-- open link in new tab -->
+        <h1>Resources</h1>
         <br>
-        <li><a href="https://www.w3schools.com/html/html_links.asp" target="_blank">Tab link</a></li>
-        <li><a href="https://www.youtube.com/watch?v=pQN-pnXPaVg">HTML youtube tutorial</a></li>
+        <h2>Links</h2>
+        <li><a href="https://www.w3schools.com/" target="_blank">w3schools</a></li><!-- open link in new tab -->
+        <br>
+        <h2>Videos</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/pQN-pnXPaVg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </main>
+
 </body>
 </html>
