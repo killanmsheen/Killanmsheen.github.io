@@ -19,12 +19,12 @@ body {
 .topnav > a:hover {
     background-color: #d54a4f;
 }
-.topnav-center {
+.topnav-center > h1 {
     float: none;
-    position: relative;
-    top: 0;
-    left: 0;
-    transform: none;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .topnav-right {
     float: right;
