@@ -2,6 +2,9 @@
     overflow: hidden;
     background-color: #222c45;
     list-style: none;
+    border-bottom: 2px #2d374e;
+    border-style: solid;
+    margin: -5px -45px;
 }
 .nav > li {
     display: inline-block;
@@ -17,11 +20,19 @@ display: block;
 background-color: #d54a4f;
 color: black;
 }
+.nav > .home {
+    text-align: left;
+}
 body {
     margin: 0;
     padding: 0;
-    text-align: left;
     background-color: #161e2d;
     color: white;
     font-family: "Myriad Pro";
+}
+.nav > .options {
+    padding: 14px;
+}
+.nav > .options:hover {
+    background-color: #d54a4f;
 }
