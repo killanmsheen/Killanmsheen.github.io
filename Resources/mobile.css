@@ -13,24 +13,28 @@ body {
     border-style: solid;
     margin: -5px;
 }
-.topnav > a {
-    float: left;
+#mylinks {
+    display: none;
+}
+#mylinks > a {
+    color: white;
     padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
 }
-.topnav > a:hover {
-    background-color: #d54a4f;
+#mylinks > a:hover {
+    color: #d54a4f;
 }
-.topnav-center > h1 {
-    float: none;
+.topnav > h1 {
+    font-size: 22px;
+}
+.topnav > a.icon {
+    padding: 14px 16px;
     position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 0;
+    top: 0;
 }
-.topnav-right {
-    float: right;
-    padding: 14px 16px;
-}
-.topnav-right:hover {
-    background-color: #d54a4f;
+.topnav > h1 {
+    text-align: center;
 }

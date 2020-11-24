@@ -6,29 +6,24 @@
     <title>Killan</title>
     <link rel="icon" type="image/png" href="/Resources/skull.png">
     <link rel="stylesheet" href="/Resources/nav.css">
-<style>
-    li {
-        list-style: none;
-    }
-    li > a {
-        text-decoration: none;
-        color: #d54a4f;
-    }
-    h2 {
-        text-decoration: underline;
-    }
-</style>
+    <style>
+        li {
+            list-style: none;
+        }
+        li > a {
+            text-decoration: none;
+            color: #d54a4f;
+        }
+        h2 {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-
     <header> 
-        <ul class="nav">
-            <li class="logo"><a href="home.html"><img src="/Resources/skull-logo.png" alt=""></a></li>
-            <li><a href="/commands.html">Commands</a></li>
-            <li><a href="help.html">Help</a></li>
-        </ul>          
+        <div w3-include-html="/Resources/nav.html"></div> 
+        <script src="/Resources/w3-include-HTML.js"></script>                     
     </header>
-
     <main>
         <h1>Resources</h1>
         <br>
@@ -38,6 +33,5 @@
         <h2>Videos</h2>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/pQN-pnXPaVg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </main>
-
 </body>
 </html>
