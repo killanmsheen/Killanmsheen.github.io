@@ -15,8 +15,14 @@
         <script src="/resources/js/w3-include-HTML.js"></script>                     
     </header>
     <main>
-        <div w3-include-html="/resources/html/command-menu.html"></div>
-        <script src="/resources/js/w3-include-HTML.js"></script>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Commands</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="/commands/polls.html">Polls</a>
+                <a href="/commands/math.html">Mathematics</a>
+                <a href="/commands/util.html">Utility</a>
+            </div>
+        </div>
     </main>
 </body>
 </html>
