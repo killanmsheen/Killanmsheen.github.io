@@ -15,12 +15,14 @@
         <script src="/resources/js/w3-include-HTML.js"></script>                     
     </header>
     <main>
-        <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn">Polls</button>
-            <div id="myDropdown" class="dropdown-content">
-                <a href="/commands/math.html">Mathematics</a>
-                <a href="/commands/commands.html">Commands</a>
-                <a href="/commands/util.html">Utility</a>
+        <!--navigation bar-->
+        <div w3-include-html="/resources/html/cmd-menu.html"></div> 
+        <script src="/resources/js/w3-include-HTML.js"></script>
+        <!--information about command-->
+        <div style="text-align: center;">
+            <div style="display: inline-block; text-align: left;">
+                <p><b>Poll:</b> Creates a poll with up to 10 choices.</p>
+                <p><b>Vote:</b>Starts a yes/no/don't care vote.</p>
             </div>
         </div>
     </main>
