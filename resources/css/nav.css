@@ -8,6 +8,10 @@ body {
 b {
     color: #d54a4f;
     font-size: 20px;
+    padding-right: 10px;
+}
+p {
+    font-size: 18px;
 }
 .nav {
     padding: 14px 16px;
