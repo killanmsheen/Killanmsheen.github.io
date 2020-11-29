@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Killan</title>
+    <link rel="icon" type="image/png" href="/resources/img/skull.png">
+    <link rel="stylesheet" href="/resources/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/resources/css/now-ui-kit.css">
+    <link rel="stylesheet" href="/resources/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,600,700,800,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-transparent">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="assets/menuIcon.svg" width="20px" height="20px" style="max-width: none !important;">
+        </button>
+        <img src="assets/BotLogo.svg" width="50" height="50">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 20px !important">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/home.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/features">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/features">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/features">Subscribtion</a>
+                </li>
+            </ul>
+            <div class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Documentation
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/cmds.html">Commands</a>
+                    <a class="dropdown-item" href="/tutorials">Tutorials</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="/server-settings">Server settings</a>
+                </div>
+            </div>
+            <div class="nav-item">
+                <a class="nav-link" href="/about">About</a>
+            </div>
+            <button class="btn login-btn btn-outline-accent my-2 my-sm-0" style="font-size: 10px !important;font-family: poppins !important;">LOGIN</button>
+        </div>
+    </nav> 
+    <main>
+        <div class="box">
+        <ul>
+            <li id="tab-one">
+                <h4>Polls</h4>
+            </li>
+            <li id="tab-two">
+                <h4>Mathematics</h4>
+            </li>
+            <li id="tab-three">
+                <h4>Commands</h4>
+            </li>
+            <li id="tab-four">
+                <h4>Utility</h4>
+            </li>
+        </ul>
+        <div class="content">
+            <div id="tab-one-content-box" class="hide active" style="text-align: center;">
+                <div style="display: inline-block; text-align: left;">
+                    <p><b>Poll:</b> Creates a poll with up to 10 choices.</p>
+                    <p><b>Vote:</b> Starts a yes/no/don't care vote.</p>
+                </div>
+            </div>
+            <div id="tab-two-content-box" class="hide" style="text-align: center;">
+                <div style="display: inline-block; text-align: left;">
+                    <p><b>Add:</b> Adds two numbers.</p>
+                </div>
+            </div>
+            <div id="tab-three-content-box" class="hide" style="text-align: center;">
+                <div style="display: inline-block; text-align: left;">
+                    <p><b>Groups:</b> List all command groups.</p>
+                    <p><b>Enable:</b> Enables a command or command group.</p>
+                    <p><b>Disable:</b> Disables a command or command group.</p>
+                    <p><b>Reload:</b> Reloads a command or command group.</p>
+                    <p><b>Load:</b> Loads a new command.</p>
+                    <p><b>Unload:</b> Unloads a command.</p>
+                </div>
+            </div>
+            <div id="tab-four-content-box" class="hide" style="text-align: center;">
+                <div style="display: inline-block; text-align: left;">
+                    <p><b>Help:</b> Displays a list of available commands, or detailed information for a specified command.</p>
+                    <p><b>Prefix:</b> Shows or sets the command prefix.</p>
+                    <p><b>Ping:</b> Checks the bot's ping to the Discord server.</p>
+                    <p><b>Eval:</b> Execute JavaScript code.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+    <script src="resources/js/jquery-3.5.1.min.js"></script>
+    <script src="resources/js/cmds.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/now-ui-kit.min.js"></script>
+</body>
+</html>
