@@ -180,14 +180,6 @@ color: rgba(255, 255, 255, 0.46) !important
     color: #fff !important
 }
 
-.hide {
-    display: none;
-}
-
-.active{
-    display: block;
-}
-
 .footer {
     text-align: center !important;
     padding: 5px 6px !important;
@@ -212,4 +204,16 @@ color: rgba(255, 255, 255, 0.46) !important
 .footer .bot-footer {
     text-align: center !important;
     color: #a2a8bd !important
+}
+.center-pills {
+    display: inline-flex;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+.container {
+    width: auto;
+    height: 550px;
+    padding: 20px;
+    background-color: #32dbd6;
 }
