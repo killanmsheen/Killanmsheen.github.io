@@ -213,7 +213,16 @@ color: rgba(255, 255, 255, 0.46) !important
 
 .container {
     width: auto;
-    height: 550px;
+    height: 600px;
     padding: 20px;
     background-color: #32dbd6;
+}
+
+.nav-pills > li > a {
+    text-decoration: none;
+    padding: 10px;
+}
+.nav-pills > li > .active {
+    padding: 5px;
+    background-color: violet;
 }

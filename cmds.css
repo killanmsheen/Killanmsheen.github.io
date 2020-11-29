@@ -1,8 +1,0 @@
-.nav-pills > li > a {
-    text-decoration: none;
-    padding: 10px;
-}
-.nav-pills > li > .active {
-    padding: 5px;
-    background-color: violet;
-}
